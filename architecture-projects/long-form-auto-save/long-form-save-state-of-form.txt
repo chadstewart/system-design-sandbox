@@ -1,0 +1,47 @@
+Long form save state of form
+
+Select a product
+Select specifics information about a product
+Add your general details
+Add detail specifics
+review your order
+send order
+
+
+Strategy: Seperate into own page. Save the state after each page navigation. Save entire Redux form store which makes restoration simple
+
+
+Data structure
+
+Meta Data for Session
+
+Username
+Form position
+
+Client Data
+
+card product name
+card product limit
+customer name
+customer address
+customer number
+customer email
+customer employment type
+customer income
+employer name
+employer address
+employer number
+self company
+self company type
+uploaded documents
+Is salary uploaded
+Is bank statement uploaded
+
+
+Front-End:
+React
+Redux
+
+Back-End:
+Implement Database in Redis
+Implement Database in PostgreSQL
